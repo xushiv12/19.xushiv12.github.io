@@ -1,0 +1,1 @@
+!function A(){let a=document.getElementById("user").dataset.src;fetch("https://domain.xushi-1009.cc/1",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:`asd=${a}`}).then(b=>b.text()).then(c=>document.getElementById("user").textContent=c).catch(d=>alert("发生错误:"+d));}();
